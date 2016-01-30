@@ -350,14 +350,14 @@ td {
 }
 
 #wrap {
-   width:600px;
+   width:800px;
    margin:0 auto;
 }
 #left_col {
    float:left;
-   width:300px;
+   width:400px;
 }
 #right_col {
    float:right;
-   width:300px;
+   width:400px;
 }
