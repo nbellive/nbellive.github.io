@@ -253,7 +253,7 @@ td {
 }
 
 #content {
-	background-image: url(images/banner.jpg);
+	background-image: url(images/ecoli_dna.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: top;
@@ -319,7 +319,7 @@ td {
 #file-links .i{
 	font-weight: 700;
 }
-#im {   width: 275px;
+#im { width: 275px;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -352,6 +352,10 @@ td {
 #wrap2 {
    width:800px;
    margin:0 auto;
+   padding: 0;
+   text-align: center;
+   margin: 1em;
+   display: inline-block;
 }
 #left_col {
    float:left;
