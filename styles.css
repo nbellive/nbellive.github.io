@@ -292,6 +292,14 @@ td {
 	color: #9E373B;
 
 }
+
+#content h3{
+	font-size: 12pt;
+	font: "Open Sans", Arial, sans-serif; 
+	margin: 0px 0 0px 7.5px;
+
+}
+
 #content hr{
 	width: 95%;
 	background-color: #9E373B;
