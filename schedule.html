@@ -8,16 +8,6 @@
 		<link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,500' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
-		   <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-		   <script type="text/javascript" src="js/jquery.csvToTable.js"></script>
-	<script>
-	$(function() {
-		$.get('data1.csv', function(data) {
-			$('#CSVSource').html('<pre>' + data + '</pre>');
-		});
-		$('#CSVTable').CSVToTable('data1.csv', { loadingImage: 'images/loading.gif', startLine: 0 });
-		});;
-	</script>
 
 
 	</head>
@@ -31,10 +21,10 @@
 	</div>
 
 	<div id="navbar">
-		<li class="current"> <i class="fa fa-home "></i> Main </li>
+		<li> <a href="index.html"><i class="fa fa-users "></i> Main </a></li>
 		<li> <a href="people.html"><i class="fa fa-users "></i> People </a></li>
 		<li> <a href="policies.html"><i class="fa fa-calendar "></i> Course Policies </a></li>
-		<li> <a href="schedule.html"><i class="fa fa-calendar "></i> Schedule </a></li>
+		<li class="current"> <i class="fa fa-home "></i> Schedule </li>
 		<li> <a href="modules.html"><i class="fa fa-code "></i> Modules</a></li>
 		<li> <a href="links.html"><i class="fa fa-briefcase "></i> Links </a></li>
 		<li> <a href="handouts.html"><i class="fa fa-calculator "></i> Handouts </a></li>
@@ -71,10 +61,6 @@
 
 			<h1>Group A - Schedule</h1>
 			<hr />
-			<div id="CSVTable">
-			</div>
-
-
 			
 			<h1>Group B - Schedule</h1>
 			<hr />
