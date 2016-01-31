@@ -65,8 +65,8 @@ p {
 	width: 25%;
 	float: left;
 	text-align: center;
-	font-size: 2.5em;
-	font-weight: bold;
+	font-size: 4em;
+	font-weight: bolder;
 	font-family: 'Lucida Sans Unicode';
 }
 
@@ -74,7 +74,7 @@ p {
 	width: 25%;
 	float: left;
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 3em;
 	font-family: 'Lucida Sans Unicode';
 }
 
