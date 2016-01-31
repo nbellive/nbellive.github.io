@@ -61,28 +61,45 @@
 
 			<h1>Group A - Schedule</h1>
 			<hr />
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			
+			<div id="container">
+				$.get('data.csv', function(data) {
 
-			<script src="http://d3js.org/d3.v3.min.js"></script> 
-	        <!--<script src="d3.min.js?v=3.2.8"></script> -->
+				// start the table
+				var html = '<table">';
 
-	        <script type="text/javascript"charset="utf-8">
-	            d3.text("data.csv", function(data) {
-	                var parsedCSV = d3.csv.parseRows(data);
+				// split into lines
+				var rows = data.split("\n");
 
-	                var container = d3.select("body")
-	                    .append("table")
+				// parse lines
+				rows.forEach( function getvalues(ourrow) {
 
-	                    .selectAll("tr")
-	                        .data(parsedCSV).enter()
-	                        .append("tr")
+				// start a table row
+				html += "<tr>";
 
-	                    .selectAll("td")
-	                        .data(function(d) { return d; }).enter()
-	                        .append("td")
-	                        .text(function(d) { return d; });
-	            });
-	        </script>
+				// split line into columns
+				var columns = ourrow.split(",");
 
+				html += "<td>" + columns[0] + "</td>";
+				html += "<td>" + columns[1] + "</td>";
+				html += "<td>" + columns[2] + "</td>";
+
+				// close row
+				html += "</tr>";
+				})
+				// close table
+				html += "</table>";
+
+				// insert into div
+				$('#container').append(html);
+
+				});
+			</div>
+
+
+
+			
 			<h1>Group B - Schedule</h1>
 			<hr />
 
