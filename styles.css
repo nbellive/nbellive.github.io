@@ -38,7 +38,7 @@ p {
 }
 
 .header, .footer, .post {
-	padding: 1em;
+	padding: 0.8em;
 }
 
 .header, .header a {
@@ -104,10 +104,10 @@ p {
 }
 
 .box-area {
-	padding: 0.5em;
+	padding: 1.0em;
 	background: #3c7196;
 	color: #F3FDFF;
-	margin-top: 0.5em;
+	margin-top: 1.5em;
 }
 
 .footer {
