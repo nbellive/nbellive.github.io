@@ -57,7 +57,7 @@ p {
 
 /* logo and tagline at 50% of the screen on all screen sizes. */
 .logo {
-	width: 25%;
+	width: 22%;
 	float: left;
 }
 
@@ -68,7 +68,7 @@ p {
 	font-size: 1.5em;
 	font-weight: bold;
 	font-family: 'Lucida Sans Unicode';
-	padding-top: 0.5em;
+	padding-top: 0.6em;
 }
 
 
