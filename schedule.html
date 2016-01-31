@@ -10,12 +10,14 @@
 
 		   <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 		   <script type="text/javascript" src="js/jquery.csvToTable.js"></script>
-			    <script type="text/javascript">
-
-			    $(function() {
-			            $('#CSVTable').CSVToTable('data1.csv');
-			    });
-    			</script>
+	<script>
+	$(function() {
+		$.get('data1.csv', function(data) {
+			$('#CSVSource').html('<pre>' + data + '</pre>');
+		});
+		$('#CSVTable').CSVToTable('data1.csv', { loadingImage: 'images/loading.gif', startLine: 0 });
+		});;
+	</script>
 
 
 	</head>
