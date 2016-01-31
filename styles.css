@@ -61,8 +61,8 @@ p {
 	float: left;
 }
 
-.tagline1 {
-	width: 25%;
+.tagline {
+	width: 40%;
 	float: left;
 	text-align: center;
 	font-size: 1.5em;
@@ -70,13 +70,6 @@ p {
 	font-family: 'Lucida Sans Unicode';
 }
 
-.tagline2 {
-	width: 25%;
-	float: left;
-	text-align: center;
-	font-size: 1.5em;
-	font-family: 'Lucida Sans Unicode';
-}
 
 .content {
 	padding: 1em 0;
