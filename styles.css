@@ -110,7 +110,13 @@ p {
 #file-links a{
 	font-weight: 700;
 	text-decoration: none;
+	color: black;
 }
+#file-links a:hover {
+    text-decoration: underline;
+    color: #3c7196;
+}
+
 #file-links li{
 	padding: 0.75em 0 0 1.5em;
 	margin: 0;
