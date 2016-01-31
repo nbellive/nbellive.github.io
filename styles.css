@@ -26,6 +26,14 @@ h2 {
 	line-height: 1.15em;
 }
 
+h3 {
+	font-size: 1.5em;
+	margin: 1em 0;
+	line-height: 1.15em;
+	background: rgba(255,255,255,.5);
+	padding: .5em;
+}
+
 p {
 	margin: 1.5em 0;
 	font-size: 1em;
