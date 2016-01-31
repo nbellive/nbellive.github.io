@@ -63,13 +63,11 @@ p {
 
 .tagline {
 	width: 40%;
-	float: left;
+	float: bottom left;
 	text-align: center;
 	font-size: 1.5em;
 	font-weight: bold;
 	font-family: 'Lucida Sans Unicode';
-	position: absolute;
-	bottom: 0;
 }
 
 
