@@ -35,13 +35,19 @@ p {
 	padding: 1em;
 }
 
-.header, .footer, .header a, .footer a {
+.header, .header a {
 	color: #000000;
+}
+
+.footer,  .footer a {
+	color: #FFFFFF;
 }
 
 .header {
 	background: #FFFFFF;
 }
+
+
 
 /* For this demo I have the logo and tagline at 50% of the screen on all screen sizes. Most likely you may need to adjust these widths and the breakpoints for various viewport sizes. */
 .logo, .tagline {
