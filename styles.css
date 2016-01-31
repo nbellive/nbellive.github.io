@@ -49,7 +49,7 @@ p {
 
 
 
-/* For this demo I have the logo and tagline at 50% of the screen on all screen sizes. Most likely you may need to adjust these widths and the breakpoints for various viewport sizes. */
+/* logo and tagline at 50% of the screen on all screen sizes. */
 .logo, .tagline {
 	width: 25%;
 	float: left;
@@ -67,9 +67,6 @@ p {
 	background: #D0EDF3;
 }
 
-.content-third {
-	background: #F9F2E0;
-}
 
 .post-sidebar {
 	float: left;
