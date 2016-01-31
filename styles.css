@@ -36,21 +36,21 @@ p {
 }
 
 .header, .footer, .header a, .footer a {
-	color: #E9E6F1;
+	color: #000000;
 }
 
 .header {
-	background: #867CA4;
+	background: #FFFFFF;
 }
 
 /* For this demo I have the logo and tagline at 50% of the screen on all screen sizes. Most likely you may need to adjust these widths and the breakpoints for various viewport sizes. */
 .logo, .tagline {
-	width: 50%;
+	width: 25%;
 	float: left;
 }
 
 .tagline {
-	text-align: right;
+	text-align: center;
 }
 
 .content {
