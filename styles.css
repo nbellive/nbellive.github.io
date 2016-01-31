@@ -83,6 +83,7 @@ p {
 
 .content {
 	padding: 1em 0;
+	padding-left: 1em;
 }
 
 .content-second {
@@ -180,6 +181,15 @@ a:hover {
 #nav .active {
     background-color: #154b71;
     color: white;
+}
+
+#wrap {
+	min-width: 475px;
+	max-width: 800px;
+	margin:  auto;
+	border: 1px solid  black;
+	border-radius: 10px;
+	padding: 5px 10px;
 }
 
 #wrap2 {
