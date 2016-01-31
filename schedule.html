@@ -63,7 +63,9 @@
 			<hr />
 			<script src="ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 			
-			<div id="container">
+			<div id="container2"></div>
+
+
 				$.get('data.csv', function(data) {
 
 				// start the table
@@ -92,11 +94,9 @@
 				html += "</table>";
 
 				// insert into div
-				$('#container').append(html);
+				$('#container2').append(html);
 
 				});
-			</div>
-
 
 
 			
