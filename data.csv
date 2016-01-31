@@ -1,0 +1,35 @@
+:header: Week, Date, Group A Activity, Journal Club, Assignment Due
+:widths: 3, 4, 10, 5, 10 
+:delim: &
+
+1 & M 3/30 & Intro to Bi 1x, `Safety <handouts/bi1x_2015_safety.pdf>`__, `Lab Basics/Restriction Digest <modules/bi1x_2015_lab_basics_and_restriction_digest.pdf>`__ &--& --
+1 & T 3/31 & No Class & -- &  --
+1 & Th 4/2 & `Lab Basics/Restriction Digest <modules/bi1x_2015_lab_basics_and_restriction_digest.pdf>`__ (gels), `Intro to Python <tutorials/intro_to_python.html>`__ &-- & --
+1 & Su 4/5 & Lab Basics office hours, 9-10pm, 231 SFL & -- & --
+2 & M 4/6 & `Image Processing I <tutorials/image_processing_1.html>`__ & `Nurse 2003 <protected/articles/NurseClinMed2003.pdf>`__ 
+2 & T 4/7 & `Intro. to Microscopy <modules/bi1x_2015_intro_to_microscopy_and_biological_scales.pdf>`__ & -- & --
+2 & Th 4/9 & `Jared Leadbetter <http://www.its.caltech.edu/~jaredl/>`__ guest lecture, 100 Broad & -- & `1. Lab Basics/Restriction Digest <modules/bi1x_2015_lab_basics_and_restriction_digest.pdf>`__
+2 & Su 4/12 & Intro. to Microscopy office hours, 2-3pm, 328 SFL & -- & --
+3 & M 4/13 & `Plotting/Linear Regression <tutorials/plotting_and_linear_regression.html>`__, `E. coli Growth (bulk) <modules/bi1x_2015_bacterial_growth.pdf>`__ &-- & `2. Intro. to Microscopy <modules/bi1x_2015_intro_to_microscopy_and_biological_scales.pdf>`__ 
+3 & T 4/14 & `E. coli Growth (microscopy) <modules/bi1x_2015_bacterial_growth.pdf>`__ & `Neidhardt 1999 <protected/articles/NeidhardtJBacteriol1999.pdf>`__ & --
+3 & Th 4/16 & *E. coli* Growth office hours and colony counting & -- & --
+4 & M 4/20 &  `C. elegans Optogenetics <modules/bi1x_2015_c_elegans_optogenetics.pdf>`__ (picking), `Drosophila Embryogenesis <modules/bi1x_2015_drosophila_embryogenesis.pdf>`__ (crosses)&--&-- 
+4 & T 4/21 & `Parameter Estimation tutorial <tutorials/bayesian_parameter_estimation.html>`__, Sea Urchin Fertilization &-- & --
+4 & Th 4/23 & *E. coli* Growth office hours & -- & --
+5 & M 4/27 & `Termite Gut <modules/bi1x_2015_termite_gut.pdf>`__ (microscopy), `Luria-Delbrück <modules/bi1x_2015_luria_delbruck.pdf>`__ (plating) &--&  `3. E. coli growth <modules/bi1x_2015_bacterial_growth.pdf>`__
+5 & T 4/28 & `Termite Gut <modules/bi1x_2015_termite_gut.pdf>`__ (DNA Extraction and PCR) &--&--
+5 & Th 4/30 & `Luria-Delbrück <modules/bi1x_2015_luria_delbruck.pdf>`__ (cell counting/simulation) &--&--
+6 & M 5/4 & Guest lecture,  `C. elegans optogenetics <modules/bi1x_2015_c_elegans_optogenetics.pdf>`__ (assays) &-- & -- 
+6 & T 5/5 & `Termite Gut <modules/bi1x_2015_termite_gut.pdf>`__ (TOPO Cloning) & `Pace 2006 <protected/articles/PaceNature2006.pdf>`__ & --
+6 & Th 5/7 & Luria Delbrück and *C. elegans* office hours & -- & --
+7 & M 5/11 & `Drosophila Embryogenesis <modules/bi1x_2015_drosophila_embryogenesis.pdf>`__ (imaging) &-- & `4. Luria-Delbrück <modules/bi1x_2015_luria_delbruck.pdf>`__ and `5. C. elegans <modules/bi1x_2015_c_elegans_optogenetics.pdf>`__ 
+7 & T 5/12 & `Termite Gut <modules/bi1x_2015_termite_gut.pdf>`__ (Colony PCR), `Nonlinear Regression <tutorials/nonlinear_regression_tutorial.html>`__ &-- & --
+7 & Th 5/14 & *Drosophila* embryogenesis office hours & -- & --
+8 & M 5/18 & `LacI Titration <modules/bi1x_2015_laci_titration.pdf>`__ &--& `6. Drosophila Embryogenesis <modules/bi1x_2015_drosophila_embryogenesis.pdf>`__
+8 & T 5/19 & `Image Processing II <tutorials/image_processing_2.html>`__ & `Rosenfeld, et al. 2005 <protected/articles/RosenfeldScience2005.pdf>`__  & --
+8 & Th 5/21 & LacI Titration office hours & -- & --
+9 & M 5/25 & No Class (Memorial Day) &--& --
+9 & T 5/26 &  `Bioinformatics Tutorial <tutorials/bi1x_bioinformatics.html>`__ & -- & `7. LacI Titration <modules/bi1x_2015_laci_titration.pdf>`__
+9 & Th 5/28 & Termite Gut office hours & -- & --
+10 & M 6/1 & No Class &--& -- 
+10 & T 6/2 & Course Wrap-up &--& `8. Termite Gut <modules/bi1x_2015_termite_gut.pdf>`
