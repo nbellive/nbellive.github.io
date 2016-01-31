@@ -89,7 +89,7 @@ p {
 .sidebar-right {
 	float: right;
 	width: 30%;
-	padding: 1em;
+	padding: 0.5em;
 }
 
 /* Media query to make the sidebar drop and stack below the content when the screen is smaller than 800px, and giving both the sidebar and content to the left 100% width. */
