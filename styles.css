@@ -20,6 +20,12 @@ h1 {
 	line-height: 1.15em;
 }
 
+h2 {
+	font-size: 1.25em;
+	margin: 1em 0;
+	line-height: 1.15em;
+}
+
 p {
 	margin: 1.5em 0;
 	font-size: 1em;
