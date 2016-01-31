@@ -165,3 +165,20 @@ p {
     background-color: #154b71;
     color: white;
 }
+
+#wrap2 {
+   width:800px;
+   margin:0 auto;
+   padding: 0;
+   text-align: center;
+   margin: 1em;
+   display: inline-block;
+}
+#left_col {
+   float:left;
+   width:400px;
+}
+#right_col {
+   float:right;
+   width:400px;
+}
