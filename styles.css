@@ -190,6 +190,37 @@ a:hover {
    margin: 1em;
    display: inline-block;
 }
+
+#im { width: 275px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin: 1em;
+	display: inline-block;
+
+}
+
+#im img{
+	border: 1px solid #000;
+	height: 300px;
+}
+
+#im p {
+	font-family: small "Courier", Arial, sans-serif;
+	text-align: center;
+}
+#im h1{
+	font-size: 12pt;
+	text-align: center;
+	margin-bottom: -0.10em;
+}
+
+#im h2{
+	font-family: "Courier", Arial, sans-serif;
+	text-size: 8pt;
+	text-align: center;
+}
+
 #left_col {
    float:left;
    width:400px;
