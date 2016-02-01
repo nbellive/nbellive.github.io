@@ -7,8 +7,10 @@
   	box-sizing: border-box; 
 }
 
+/* #f1f0e6; */
+
 body {
-	background: #f1f0e6;
+	background: #e4e2ce 
 	color: #52514E;
 	font: 100% Helvetica,  Arial,  sans-serif;
 	line-height: 1.25em;
